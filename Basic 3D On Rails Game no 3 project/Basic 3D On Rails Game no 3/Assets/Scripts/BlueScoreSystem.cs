@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class BlueScoreSystem : MonoBehaviour {
 
+    public int scoreValue = 100;
 
+    public ScoreKeeper blueScoreKeeper;
 
     void Start()
     {
-
+       // blueScoreKeeper = GameObject.Find("Score").GetComponent<ScoreKeeper>();
     }
 
     void Update()
@@ -19,6 +21,7 @@ public class BlueScoreSystem : MonoBehaviour {
     void OnMouseDown()
     {
         Destroy(this.gameObject);
+        blueScoreKeeper.Score(scoreValue);
     }
 
 

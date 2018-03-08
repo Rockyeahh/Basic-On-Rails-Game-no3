@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class RedScoreSystem : MonoBehaviour {
 
+    public int scoreValue = 100;
 
+    public ScoreKeeper redScoreKeeper;
 
-	void Start () {
-		
-	}
+    void Start ()
+    {
+        //redScoreKeeper = GameObject.Find("Score").GetComponent<ScoreKeeper>();
+    }
 	
 	void Update () {
 		
@@ -17,6 +20,7 @@ public class RedScoreSystem : MonoBehaviour {
     void OnMouseDown()
     {
         Destroy(this.gameObject);
+        redScoreKeeper.decreaseScore(scoreValue);
     }
 
   //  public void RedScore()
