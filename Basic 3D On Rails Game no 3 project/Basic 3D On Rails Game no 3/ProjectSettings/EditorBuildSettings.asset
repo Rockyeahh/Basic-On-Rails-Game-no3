@@ -4,4 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00 Splash Screen.unity
+    guid: 691ac5c4a4ddb174fb0e6264b5b627de
+  - enabled: 1
+    path: Assets/Scenes/01a Main Menu.unity
+    guid: a43ac8a992af5ba459c403b392583806
+  - enabled: 1
+    path: Assets/Scenes/01b Options.unity
+    guid: 039247724bca8684281681941be6e405
+  - enabled: 1
+    path: Assets/Scenes/02a Level_01.unity
+    guid: 838f01ad1860f5e48896fb1d8fe18933
+  - enabled: 1
+    path: Assets/Scenes/02a Level_02.unity
+    guid: 93eac91d05a5b534ba3d99eff6745c36
+  - enabled: 1
+    path: Assets/Scenes/03a Score Screen Level_01.unity
+    guid: 7826b5d4568f6b645b8cc146b94034c1

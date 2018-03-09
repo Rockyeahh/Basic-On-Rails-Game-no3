@@ -26,7 +26,7 @@ public class ScoreDisplay : MonoBehaviour {
 
     public void DisplayUpdate() // Maybe it needs to be changed to LateUpdate.
     {
-        levelScore.text = currentScore.ToString(); // This should instead of score say something that checks the scorekeeper for the current static int score.
+        levelScore.text = GameObject.Find("currentScore").GetComponent<ScoreKeeper>().ToString(); // This should instead of score say something that checks the scorekeeper for the current static int score.
     }
 
 }

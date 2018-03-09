@@ -8,7 +8,6 @@ public class LevelManager : MonoBehaviour
 
     public float autoLoadNextLevelAfter;
 
-    // Use this for initialization
     void Start()
     {
         if (autoLoadNextLevelAfter <= 0)
