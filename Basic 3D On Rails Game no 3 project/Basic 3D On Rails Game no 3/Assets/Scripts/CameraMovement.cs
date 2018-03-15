@@ -13,4 +13,11 @@ public class CameraMovement : MonoBehaviour {
 	void Update () {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        //print("Collison");
+        speed = 0;
+    }
+
 }

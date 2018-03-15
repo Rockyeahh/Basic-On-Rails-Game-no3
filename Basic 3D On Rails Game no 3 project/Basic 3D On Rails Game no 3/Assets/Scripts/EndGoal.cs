@@ -22,7 +22,7 @@ public class EndGoal : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        // Make UI score screen button on enable.
+        print("Collison");
         ScoreScreen.SetActive(true);
     }
 

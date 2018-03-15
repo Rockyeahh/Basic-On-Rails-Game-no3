@@ -326,6 +326,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BlueScoreSystem.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\CubeMovement.cs" />
     <Compile Include="Assets\Scripts\EndGoal.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\RedScoreSystem.cs" />
