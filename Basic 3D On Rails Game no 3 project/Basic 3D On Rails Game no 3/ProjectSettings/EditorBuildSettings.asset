@@ -19,7 +19,7 @@ EditorBuildSettings:
     guid: 838f01ad1860f5e48896fb1d8fe18933
   - enabled: 1
     path: Assets/Scenes/02a Level_02.unity
-    guid: 93eac91d05a5b534ba3d99eff6745c36
+    guid: 30391b63e8a743946a77f14e25eb8505
   - enabled: 1
     path: Assets/Scenes/03a Score Screen Level_01.unity
     guid: 7826b5d4568f6b645b8cc146b94034c1

@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 744611208}
   - component: {fileID: 744611207}
   m_Layer: 5
-  m_Name: Total Score number
+  m_Name: High Score number
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -971,6 +971,21 @@ Prefab:
     - target: {fileID: 114217749830733768, guid: eae3951a52569164e93704055fe17f11,
         type: 2}
       propertyPath: totalScore
+      value: 
+      objectReference: {fileID: 744611207}
+    - target: {fileID: 114217749830733768, guid: eae3951a52569164e93704055fe17f11,
+        type: 2}
+      propertyPath: puzzleGained
+      value: 
+      objectReference: {fileID: 1136213038}
+    - target: {fileID: 114217749830733768, guid: eae3951a52569164e93704055fe17f11,
+        type: 2}
+      propertyPath: puzzleTotal
+      value: 
+      objectReference: {fileID: 509594764}
+    - target: {fileID: 114217749830733768, guid: eae3951a52569164e93704055fe17f11,
+        type: 2}
+      propertyPath: highScore
       value: 
       objectReference: {fileID: 744611207}
     m_RemovedComponents: []

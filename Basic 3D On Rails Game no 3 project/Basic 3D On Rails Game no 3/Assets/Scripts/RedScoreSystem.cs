@@ -10,7 +10,7 @@ public class RedScoreSystem : MonoBehaviour {
 
     void Start ()
     {
-        //redScoreKeeper = GameObject.Find("Score").GetComponent<ScoreKeeper>();
+        
     }
 	
 	void Update () {
@@ -22,15 +22,4 @@ public class RedScoreSystem : MonoBehaviour {
         Destroy(this.gameObject);
         redScoreKeeper.decreaseScore(scoreValue);
     }
-
-  //  public void RedScore()
-  //  {
-  //      print("Red Score");
-  //  }
-
-  //  public void BlueScore()
-  //  {
-  //      print("Blue Score");
-   // }
-
 }

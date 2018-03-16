@@ -10,7 +10,7 @@ public class BlueScoreSystem : MonoBehaviour {
 
     void Start()
     {
-       // blueScoreKeeper = GameObject.Find("Score").GetComponent<ScoreKeeper>();
+       
     }
 
     void Update()
@@ -23,6 +23,4 @@ public class BlueScoreSystem : MonoBehaviour {
         Destroy(this.gameObject);
         blueScoreKeeper.Score(scoreValue);
     }
-
-
 }
